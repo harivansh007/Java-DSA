@@ -1,0 +1,37 @@
+/* General page setup */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* The card container */
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px; /* Slightly rounded corners */
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+/* Link styling */
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
